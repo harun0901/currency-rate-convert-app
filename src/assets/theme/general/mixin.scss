@@ -1,0 +1,17 @@
+@mixin stroke_invalid() {
+    box-shadow: 0 0 5px 2px #f44336;
+    border-radius: 5px;
+    padding: 0 15px;
+}
+
+@mixin shadow_1 {
+    box-shadow: 0 2px 8px 0 rgba(224, 229, 238, 0.3);
+}
+
+@mixin shadow_2 {
+    box-shadow: 0 2px 8px 0 rgba(224, 229, 238, 0.9);
+}
+
+@mixin shadow_3 {
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+}
